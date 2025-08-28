@@ -36,7 +36,8 @@ function App() {
       setList([...list, newItem]);
     }
 
-   
+    setName("");
+    setPrice("");
   };
 
   const handleDelete = (id) => {
